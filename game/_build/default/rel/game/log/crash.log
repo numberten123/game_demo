@@ -1,0 +1,558 @@
+2019-03-16 11:57:18 =ERROR REPORT====
+Connection Id 50046 closing with reason: tcp_closed
+2019-03-16 11:57:19 =ERROR REPORT====
+** Generic server <0.623.0> terminating 
+** Last message in was {tcp_closed,#Port<0.1038>}
+** When Server state == {state,[5,6,42],undefined,undefined,"10.168.100.52",3306,"root","123456",true,600000,infinity,60000,0,2,0,0,0,#Ref<0.2098227892.2859728897.50289>,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},empty}
+** Reason for termination == 
+** tcp_closed
+2019-03-16 11:57:19 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.623.0>
+    registered_name: []
+    exception exit: {tcp_closed,[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,726}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.618.0>,pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.617.0>,<0.618.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 257112
+  neighbours:
+2019-03-16 11:57:19 =SUPERVISOR REPORT====
+     Supervisor: {<0.618.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     tcp_closed
+     Offender:   [{pid,<0.623.0>},{id,mysql},{mfargs,{mysql,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:19 =ERROR REPORT====
+Connection Id 50047 closing with reason: tcp_closed
+2019-03-16 11:57:19 =ERROR REPORT====
+** Generic server <0.624.0> terminating 
+** Last message in was {tcp_closed,#Port<0.1039>}
+** When Server state == {state,[5,6,42],undefined,undefined,"10.168.100.52",3306,"root","123456",true,600000,infinity,60000,0,2,0,0,0,#Ref<0.2098227892.2859728897.50288>,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},empty}
+** Reason for termination == 
+** tcp_closed
+2019-03-16 11:57:19 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.624.0>
+    registered_name: []
+    exception exit: {tcp_closed,[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,726}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.618.0>,pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.617.0>,<0.618.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 257120
+  neighbours:
+2019-03-16 11:57:19 =ERROR REPORT====
+Connection Id 50048 closing with reason: tcp_closed
+2019-03-16 11:57:19 =ERROR REPORT====
+** Generic server <0.625.0> terminating 
+** Last message in was {tcp_closed,#Port<0.1040>}
+** When Server state == {state,[5,6,42],undefined,undefined,"10.168.100.52",3306,"root","123456",true,600000,infinity,60000,0,2,0,0,0,#Ref<0.2098227892.2859728897.50290>,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},empty}
+** Reason for termination == 
+** tcp_closed
+2019-03-16 11:57:19 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.625.0>
+    registered_name: []
+    exception exit: {tcp_closed,[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,726}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.618.0>,pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.617.0>,<0.618.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 258200
+  neighbours:
+2019-03-16 11:57:19 =ERROR REPORT====
+Connection Id 50044 closing with reason: tcp_closed
+2019-03-16 11:57:19 =ERROR REPORT====
+** Generic server <0.619.0> terminating 
+** Last message in was {tcp_closed,#Port<0.1036>}
+** When Server state == {state,[5,6,42],undefined,undefined,"10.168.100.52",3306,"root","123456",true,600000,infinity,60000,0,2,0,0,0,#Ref<0.2098227892.2859728897.50291>,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},empty}
+** Reason for termination == 
+** tcp_closed
+2019-03-16 11:57:19 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.619.0>
+    registered_name: []
+    exception exit: {tcp_closed,[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,726}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.618.0>,pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.617.0>,<0.618.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 257132
+  neighbours:
+2019-03-16 11:57:19 =ERROR REPORT====
+Connection Id 50045 closing with reason: tcp_closed
+2019-03-16 11:57:19 =ERROR REPORT====
+** Generic server <0.622.0> terminating 
+** Last message in was {tcp_closed,#Port<0.1037>}
+** When Server state == {state,[5,6,42],undefined,undefined,"10.168.100.52",3306,"root","123456",true,600000,infinity,60000,0,2,0,0,0,#Ref<0.2098227892.2859728897.50287>,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},empty}
+** Reason for termination == 
+** tcp_closed
+2019-03-16 11:57:19 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.622.0>
+    registered_name: []
+    exception exit: {tcp_closed,[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,726}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.618.0>,pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.617.0>,<0.618.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 257196
+  neighbours:
+2019-03-16 11:57:19 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.18421.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.618.0>,pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.618.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1024
+  neighbours:
+2019-03-16 11:57:19 =SUPERVISOR REPORT====
+     Supervisor: {<0.618.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     tcp_closed
+     Offender:   [{pid,<0.624.0>},{id,mysql},{mfargs,{mysql,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:19 =SUPERVISOR REPORT====
+     Supervisor: {<0.618.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     tcp_closed
+     Offender:   [{pid,<0.625.0>},{id,mysql},{mfargs,{mysql,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:19 =SUPERVISOR REPORT====
+     Supervisor: {<0.618.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     tcp_closed
+     Offender:   [{pid,<0.619.0>},{id,mysql},{mfargs,{mysql,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:19 =SUPERVISOR REPORT====
+     Supervisor: {<0.618.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     tcp_closed
+     Offender:   [{pid,<0.622.0>},{id,mysql},{mfargs,{mysql,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:19 =SUPERVISOR REPORT====
+     Supervisor: {<0.618.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.18421.0>},{id,mysql},{mfargs,{mysql,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:19 =ERROR REPORT====
+** Generic server pool_game terminating 
+** Last message in was {'EXIT',<0.623.0>,tcp_closed}
+** When Server state == {state,<0.618.0>,[<0.624.0>,<0.623.0>,<0.622.0>,<0.619.0>,<0.625.0>],{[],[]},#Ref<0.2098227892.2859073537.236335>,5,0,200,fifo}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,handle_info,2,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,249}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,616}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,686}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2019-03-16 11:57:19 =CRASH REPORT====
+  crasher:
+    initial call: poolboy:init/1
+    pid: <0.617.0>
+    registered_name: pool_game
+    exception error: {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,handle_info,2,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,249}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,616}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,686}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [game_sup,<0.615.0>]
+    message_queue_len: 4
+    messages: [{'EXIT',<0.624.0>,tcp_closed},{'EXIT',<0.625.0>,tcp_closed},{'EXIT',<0.619.0>,tcp_closed},{'EXIT',<0.622.0>,tcp_closed}]
+    links: [<0.618.0>,<0.616.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 2114
+  neighbours:
+2019-03-16 11:57:19 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,handle_info,2,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,249}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,616}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,686}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.617.0>},{id,pool_game},{mfargs,{poolboy,start_link,[[{strategy,fifo},{name,{local,pool_game}},{worker_module,mysql},{size,5},{max_overflow,200}],[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:19 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.18424.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.18423.0>,pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.18423.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1008
+  neighbours:
+2019-03-16 11:57:19 =SUPERVISOR REPORT====
+     Supervisor: {<0.18423.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.18424.0>},{id,mysql},{mfargs,{mysql,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:19 =CRASH REPORT====
+  crasher:
+    initial call: poolboy:init/1
+    pid: <0.18422.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.616.0>,<0.18423.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 339
+  neighbours:
+2019-03-16 11:57:20 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.617.0>},{id,pool_game},{mfargs,{poolboy,start_link,[[{strategy,fifo},{name,{local,pool_game}},{worker_module,mysql},{size,5},{max_overflow,200}],[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:20 =ERROR REPORT====
+** Generic server <0.18423.0> terminating 
+** Last message in was {'EXIT',<0.18422.0>,{{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}
+** When Server state == {state,{<0.18423.0>,poolboy_sup},simple_one_for_one,[{child,undefined,mysql,{mysql,start_link,[[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]]},temporary,5000,worker,[mysql]}],{set,{set,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}}},0,1,[],0,poolboy_sup,{mysql,[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:poolboy_sup/1
+    pid: <0.18423.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,decode_msg,9,[{file,"gen_server.erl"},{line,410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 548
+  neighbours:
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.18427.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.18426.0>,pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.18426.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1008
+  neighbours:
+2019-03-16 11:57:20 =SUPERVISOR REPORT====
+     Supervisor: {<0.18426.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.18427.0>},{id,mysql},{mfargs,{mysql,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: poolboy:init/1
+    pid: <0.18425.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.616.0>,<0.18426.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 339
+  neighbours:
+2019-03-16 11:57:20 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,{restarting,<0.617.0>}},{id,pool_game},{mfargs,{poolboy,start_link,[[{strategy,fifo},{name,{local,pool_game}},{worker_module,mysql},{size,5},{max_overflow,200}],[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:20 =ERROR REPORT====
+** Generic server <0.18426.0> terminating 
+** Last message in was {'EXIT',<0.18425.0>,{{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}
+** When Server state == {state,{<0.18426.0>,poolboy_sup},simple_one_for_one,[{child,undefined,mysql,{mysql,start_link,[[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]]},temporary,5000,worker,[mysql]}],{set,{set,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}}},0,1,[],0,poolboy_sup,{mysql,[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:poolboy_sup/1
+    pid: <0.18426.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,decode_msg,9,[{file,"gen_server.erl"},{line,410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 552
+  neighbours:
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.18430.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.18429.0>,pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.18429.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1008
+  neighbours:
+2019-03-16 11:57:20 =SUPERVISOR REPORT====
+     Supervisor: {<0.18429.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.18430.0>},{id,mysql},{mfargs,{mysql,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: poolboy:init/1
+    pid: <0.18428.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.616.0>,<0.18429.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 339
+  neighbours:
+2019-03-16 11:57:20 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,{restarting,<0.617.0>}},{id,pool_game},{mfargs,{poolboy,start_link,[[{strategy,fifo},{name,{local,pool_game}},{worker_module,mysql},{size,5},{max_overflow,200}],[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:20 =ERROR REPORT====
+** Generic server <0.18429.0> terminating 
+** Last message in was {'EXIT',<0.18428.0>,{{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}
+** When Server state == {state,{<0.18429.0>,poolboy_sup},simple_one_for_one,[{child,undefined,mysql,{mysql,start_link,[[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]]},temporary,5000,worker,[mysql]}],{set,{set,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}}},0,1,[],0,poolboy_sup,{mysql,[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:poolboy_sup/1
+    pid: <0.18429.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,decode_msg,9,[{file,"gen_server.erl"},{line,410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 552
+  neighbours:
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.18433.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.18432.0>,pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.18432.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1008
+  neighbours:
+2019-03-16 11:57:20 =SUPERVISOR REPORT====
+     Supervisor: {<0.18432.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.18433.0>},{id,mysql},{mfargs,{mysql,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: poolboy:init/1
+    pid: <0.18431.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.616.0>,<0.18432.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 339
+  neighbours:
+2019-03-16 11:57:20 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,{restarting,<0.617.0>}},{id,pool_game},{mfargs,{poolboy,start_link,[[{strategy,fifo},{name,{local,pool_game}},{worker_module,mysql},{size,5},{max_overflow,200}],[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:20 =ERROR REPORT====
+** Generic server <0.18432.0> terminating 
+** Last message in was {'EXIT',<0.18431.0>,{{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}
+** When Server state == {state,{<0.18432.0>,poolboy_sup},simple_one_for_one,[{child,undefined,mysql,{mysql,start_link,[[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]]},temporary,5000,worker,[mysql]}],{set,{set,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}}},0,1,[],0,poolboy_sup,{mysql,[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:poolboy_sup/1
+    pid: <0.18432.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,decode_msg,9,[{file,"gen_server.erl"},{line,410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 552
+  neighbours:
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.18436.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.18435.0>,pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.18435.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1008
+  neighbours:
+2019-03-16 11:57:20 =SUPERVISOR REPORT====
+     Supervisor: {<0.18435.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.18436.0>},{id,mysql},{mfargs,{mysql,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: poolboy:init/1
+    pid: <0.18434.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.616.0>,<0.18435.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 339
+  neighbours:
+2019-03-16 11:57:20 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,{restarting,<0.617.0>}},{id,pool_game},{mfargs,{poolboy,start_link,[[{strategy,fifo},{name,{local,pool_game}},{worker_module,mysql},{size,5},{max_overflow,200}],[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:20 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,{restarting,<0.617.0>}},{id,pool_game},{mfargs,{poolboy,start_link,[[{strategy,fifo},{name,{local,pool_game}},{worker_module,mysql},{size,5},{max_overflow,200}],[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-03-16 11:57:20 =ERROR REPORT====
+** Generic server <0.18435.0> terminating 
+** Last message in was {'EXIT',<0.18434.0>,{{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}
+** When Server state == {state,{<0.18435.0>,poolboy_sup},simple_one_for_one,[{child,undefined,mysql,{mysql,start_link,[[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]]},temporary,5000,worker,[mysql]}],{set,{set,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}}},0,1,[],0,poolboy_sup,{mysql,[{user,"root"},{password,"123456"},{keep_alive,600000},{database,"game_demo"},{host,"10.168.100.52"},{port,3306},{queries,["SET NAMES utf8mb4"]}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2019-03-16 11:57:20 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:poolboy_sup/1
+    pid: <0.18435.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,{{badmatch,{error,econnrefused}},[{mysql,init,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/mysql/src/mysql.erl"},{line,484}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},[{poolboy,new_worker,1,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,275}]},{poolboy,prepopulate,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,296}]},{poolboy,init,3,[{file,"/mnt/hgfs/erlang/game-demo/game_demo/_build/default/lib/poolboy/src/poolboy.erl"},{line,145}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,decode_msg,9,[{file,"gen_server.erl"},{line,410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [pool_game,game_sup,<0.615.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 552
+  neighbours:

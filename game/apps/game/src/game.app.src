@@ -1,0 +1,23 @@
+{application, game,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { game_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    recon,
+    cowboy,
+    mnesia,
+    crypto,
+    compiler,
+    lager,
+    mysql_poolboy
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

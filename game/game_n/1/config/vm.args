@@ -1,0 +1,8 @@
+-name game1@10.168.100.52
+
+-setcookie game_cookie_123
+
+-kernel inet_dist_listen_min 40000 inet_dist_listen_max 41000
+
++K true
++A30
