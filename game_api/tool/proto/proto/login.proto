@@ -1,0 +1,26 @@
+// --------------------------------------------------
+// 登录服
+// --------------------------------------------------
+//心跳协议
+message m_1001_tos {
+}
+message m_1001_toc {
+	required uint32	time = 1;	//服务器时间，秒
+}
+
+//登录获取公钥
+message m_1002_tos {
+}
+message m_1002_toc {
+	required string n = 1;         //大数字，10进制的
+    required string e = 2;         //公钥指数
+}
+
+//登录
+message m_1003_tos {
+	required string username = 1; //用户名
+	required string password = 2; //密码，用rsa加密发上来，rsa(md5(pwd), public_key)
+}
+//登录成功
+message m_1003_toc {
+}

@@ -1,0 +1,63 @@
+// --------------------------------------------------
+// 通用协议
+// --------------------------------------------------
+// 所有错误信息都走这个协议
+message m_1101_toc {
+  required uint32 cmd         = 1; // 错误协议号
+  required uint32 error_code  = 2; // 错误信息编号
+  optional string description = 3; // 描述信息
+}
+// --------------------------------------------------
+// 登录服
+// --------------------------------------------------
+//心跳协议
+message m_1001_tos {
+}
+message m_1001_toc {
+	required uint32	time = 1;	//服务器时间，秒
+}
+
+//登录获取公钥
+message m_1002_tos {
+}
+message m_1002_toc {
+	required bytes public_key = 1; //公钥
+}
+
+//登录
+message m_1003_tos {
+	required string username = 1; //用户名
+	required string password = 2; //密码，用rsa加密发上来，rsa(md5(pwd), public_key)
+}
+//登录成功，返回游戏服信息
+message m_1003_toc {
+	required string ip = 1;   //游戏服ip
+	required string port = 2; //游戏服端口
+	required uint32	role_id = 3; // 玩家id
+	required bytes auth_key = 4; //验证key
+}
+
+
+message m_1004_toc {
+	required string ip = 1;   //游戏服ip
+	required uint32	role_id = 2; // 玩家id
+	repeated p_test	test_info = 3; // 列表
+}
+// --------------------------------------------------
+// 游戏服
+// --------------------------------------------------
+// 验证auth_key, 登进游戏服，可收发其他协议
+message m_1090_tos {
+	required uint32	role_id = 1;     // 玩家id
+	required bytes auth_key	= 2;	 // 验证key
+}
+message m_1090_toc {
+}
+
+message p_test{
+	required string ip = 1;   	 //游戏服ip
+	required uint32	role_id = 2; // 玩家id
+	optional uint32	role_id3 = 3; // 玩家id
+	optional string	role_id4 = 4; // 玩家id
+	optional uint32	role_id5 = 5; // 玩家id
+}

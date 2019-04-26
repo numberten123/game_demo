@@ -1,0 +1,8 @@
+-name game_api@10.168.100.52
+
+-setcookie game_cookie
+
++K true
++A30
+
+-hidden
